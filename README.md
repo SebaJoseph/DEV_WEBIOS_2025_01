@@ -1,3 +1,7 @@
 
 # DEV_WEBIOS_2025_01
-eu sou vini
+-objetivo 1
+-objetivo 2
+-objetivo 3
+-objetivo 4
+git comm
