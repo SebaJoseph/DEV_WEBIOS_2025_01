@@ -1,7 +1,3 @@
 
 # DEV_WEBIOS_2025_01
-ola mundo
-
-
-ok
-oi
+eu sou vini
