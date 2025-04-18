@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
     <!--Atributo ection serve para executar
@@ -14,17 +16,90 @@ usuario/guardar as informações
 preechidas no formulário p/banco de dados/
 ou chamar alguma ação usando o javascript-->
     <form action="">
+
+
+        <!--placeholder> inserir um texto
+auxiliar para informar o que o usuario
+deve fazer no campo input-->
+
+        <label for="">nome</label>
+
+        <input type="text" placeholder="inserir">
+
+        <!--type radio - três opições-->
+        <!--para aplicar a configuração do
+        radio é necessário colocar o type como
+    radio e o name igual para todos os
+inputs-->
+<br>
+        <input type="radio" name="1"> 
+        <label for="">São paulo</label> <br>
+
+        <input type="radio" name="1">
+        <label for="">Grande São paulo</label> <br>
+    
+        <input type="radio" name="1">
+        <label for="">campinas</label> <br>
+        
+<br>
+
+<!--checkbox-->
+<input type="checkbox"> <label for="">funk</label>
+
+<br> <input type="checkbox"> <label for="">metal</label>
+<br> <input type="checkbox"> <label for="">trap</label>
+
+ <br> <input type="checkbox"> <label for="">pagode</label>
+
+ <br>
+
+ 0KM<input type="range">100KM
+
+ <br>
+
+ <!--select-->
+ <select name="" id="">
+
+    <option value="Amarelo">Amarelo</option>
+    <option value="branco">branco</option>
+    <option value="vermelho">vermelho</option>
+    
+    </select>
+
+    <br><br>
+
+    <!--datalist-->
+    <input type="text" list="busca">
+
+    <datalist>
+        <input type="text" list="busca">
+        <datalist id="busca">
+
+<option value="santos"></option>
+<option value="santo André"></option>
+<option value="santo Antonio"></option>
+<option value="campinas"></option>
+
+
+    </datalist>
+
+
+
         <!--value - colocar um texto no
         input quando o valor do atributo type
     estiver como button-->
 
-<input type="button" value="enviar">
+        <input type="button" value="enviar">
+
+
+
 
     </form>
-    
+
 
 
 
 
 </body>
+
 </html>
