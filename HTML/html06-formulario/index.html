@@ -15,81 +15,116 @@ web/ enviar um email de boas vindas para o
 usuario/guardar as informações
 preechidas no formulário p/banco de dados/
 ou chamar alguma ação usando o javascript-->
-    <form action="">
+    <form action="./boasVindas.html" target="_blank">
+        
 
 
         <!--placeholder> inserir um texto
 auxiliar para informar o que o usuario
 deve fazer no campo input-->
 
-        <label for="">nome</label>
+        <fieldset>
+            <legend>Digite o seu nome</legend>
 
-        <input type="text" placeholder="inserir">
+            <label for="">nome</label>
+
+            <input type="text"required>
+
+        </fieldset>
 
         <!--type radio - três opições-->
         <!--para aplicar a configuração do
         radio é necessário colocar o type como
     radio e o name igual para todos os
 inputs-->
-<br>
-        <input type="radio" name="1"> 
-        <label for="">São paulo</label> <br>
+        <br>
+        <fieldset>
+            <legend>Selecione onde você mora</legend>
 
-        <input type="radio" name="1">
-        <label for="">Grande São paulo</label> <br>
+            <input type="radio" name="1">
+            <label for="">São paulo</label> <br>
+
+            <input type="radio" name="1">
+            <label for="">Grande São paulo</label> <br>
+
+            <input type="radio" name="1">
+            <label for="">campinas</label> <br>
+
+        </fieldset>
+
+        <br>
+
+        <!--checkbox-->
+        <fieldset>
+            <legend>Escolha seu genero musical</legend>
+
+            <input type="checkbox"> <label for="">funk</label>
+
+            <br> <input type="checkbox"> <label for="">metal</label>
+            <br> <input type="checkbox"> <label for="">trap</label>
     
-        <input type="radio" name="1">
-        <label for="">campinas</label> <br>
-        
-<br>
-
-<!--checkbox-->
-<input type="checkbox"> <label for="">funk</label>
-
-<br> <input type="checkbox"> <label for="">metal</label>
-<br> <input type="checkbox"> <label for="">trap</label>
-
- <br> <input type="checkbox"> <label for="">pagode</label>
-
- <br>
-
- 0KM<input type="range">100KM
-
- <br>
-
- <!--select-->
- <select name="" id="">
-
-    <option value="Amarelo">Amarelo</option>
-    <option value="branco">branco</option>
-    <option value="vermelho">vermelho</option>
+            <br> <input type="checkbox"> <label for="">pagode</label>
     
-    </select>
-
-    <br><br>
-
-    <!--datalist-->
-    <input type="text" list="busca">
-
-    <datalist>
-        <input type="text" list="busca">
-        <datalist id="busca">
-
-<option value="santos"></option>
-<option value="santo André"></option>
-<option value="santo Antonio"></option>
-<option value="campinas"></option>
 
 
-    </datalist>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Escolha a distancia</legend>
+
+            0KM<input type="range">100KM
+
+        </fieldset>
+
+        <br>
+
+        <!--select-->
+        <fieldset>
+            <legend>Escolha sua cor favorita</legend>
+
+            <select name="" id="">
+
+                <option value="Amarelo">Amarelo</option>
+                <option value="branco">branco</option>
+                <option value="vermelho">vermelho</option>
+    
+            </select>
+        </fieldset>
+
+        <br><br>
+
+        <!--datalist-->
+        <fieldset>
+            <legend> Escolha sua cidade</legend>
+            <input type="text" list="busca">
+
+            <datalist>
+    
+                <option value="santos"></option>
+                <option value="santo André"></option>
+                <option value="santo Antonio"></option>
+                <option value="campinas"></option>
+    
+    
+            </datalist>
+
+        </fieldset>
+
+        <br> <br>
+        <!--Area para grande quantidade de texto
+    col > colunas
+rows > linhas-->
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
 
 
 
         <!--value - colocar um texto no
         input quando o valor do atributo type
     estiver como button-->
-
-        <input type="button" value="enviar">
+        <br> <br>
+        <input type="submit" value="enviar">
 
 
 
