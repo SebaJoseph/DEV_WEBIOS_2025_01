@@ -1,0 +1,8 @@
+#p1{
+    /* largura da borda */
+    border-width: 1px;
+    /* cor da borda */
+    border-color: blue;
+    /* estilo da borda */
+    border-style: outset;
+}
