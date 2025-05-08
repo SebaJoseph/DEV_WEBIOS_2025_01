@@ -5,4 +5,11 @@
     border-color: blue;
     /* estilo da borda */
     border-style: outset;
+
+}
+
+body{
+    background-image: url("./gato1.webp");
+    /*fixed / scroll */
+    background-attachment: fixed;
 }
