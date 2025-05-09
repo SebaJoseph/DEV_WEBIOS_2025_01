@@ -2,8 +2,17 @@
     border: 1px solid red;
     /*Espaço interno */
     padding: 10px;
-    /* espaço externo */i
+    /* espaço externo */
     margin-bottom: 25px;
+    /*top, right, bottom, left
+    /*margin: 50px 40px 90px 25px; */
+    /*Formato cruz
+    (top,gi bottom right, left*/
+    margin: 90px 10%; 
+    /*top, (right, bottom) left */
+    /*margin 20px 5% 1.5rem, */
+    /*Aplicar o mesmo px para os 4 lados */
+    margin: 125px;
 }
 
 #div2{
