@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <img src="./IMG/KRATOS.webp" alt="">
+        
+        
+        <p style="border: 2x solid green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi excepturi ab nam reprehenderit aut quisquam explicabo at expedita, eos iure, voluptas, exercitationem sint sapiente laborum! Debitis aspernatur officiis corporis id.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur animi natus dolorum delectus sint, ullam ex illum saepe assumenda, rerum voluptatibus? Quidem magnam sequi numquam voluptates eos quos, adipisci earum?</p>
+
+<p style="clear: both;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsam error quae reprehenderit accusantium necessitatibus odio natus dolorum. Amet impedit animi saepe dignissimos, excepturi eaque suscipit! Adipisci odio quasi nulla.</p>
+    </div>
+
+
+
+</body>
+</html>
