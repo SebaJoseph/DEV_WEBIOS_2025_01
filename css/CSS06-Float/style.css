@@ -1,0 +1,88 @@
+*{
+    margin: auto;
+    width: 90%;
+}
+.Divs{
+    border: 2px solid black;
+    clear: both;
+    height: 500px;
+    margin-bottom: 30px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#imgSoraia{
+    width: 400;
+    height: 300px;
+float: left;
+margin-right: 40px;
+border-radius: 5%;
+/* transition: width 5s, height 5s, transform 5s; */
+}
+
+tabeleSoraia{
+    width: 70%;
+    border: 1px solid;
+}
+
+td{
+    width: 50%;
+    border: 1px solid;
+    margin-top: 20px;
+    border-radius: 5%;
+    border-collapse: collapse;
+}
+
+/* #imgSoraia:hover{
+    width: 700px;
+    height: 700px;
+    transform: rotate(180deg);
+} */
+
+#imgNaruto{
+    height: 400px;
+    width: 400px;
+    float: right;
+    transition: opacity 0.9s;
+    
+}
+#imgNaruto:hover{
+    opacity: 0;
+}
+
+#paragrafoNaruto::first-letter{
+    font-size: 25px;
+    color: crimson;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#imgCleiton{
+    height: 400px;
+    width: 400px;
+    float: left;
+
+}
+
+#imgRed{
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+
+#Gif{
+    height: 400px;
+    width: 400px;
+    margin-left: 18%;
+}
+
+    #paragrafoSoraia{
+        font-size: 25px;
+        margin-top: 80px;
+    }
+    
+
+    #paragrafoSoraia:hover{
+        color: black;
+        background-color: aquamarine;
+    }
