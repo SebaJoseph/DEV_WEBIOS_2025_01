@@ -1,0 +1,12 @@
+#container{
+    /* vou trabalhar com flexbox */
+    display: flex;
+    flex-direction: row;
+    /* evitar o overflow / evitar que o conteudo ultrapasse a largura da tela */
+    flex-wrap: wrap;
+}
+.i{
+    border: 1px solid black;
+    width: 50px;
+    height: 50%;
+}
