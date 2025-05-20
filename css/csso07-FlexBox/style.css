@@ -4,9 +4,22 @@
     flex-direction: row;
     /* evitar o overflow / evitar que o conteudo ultrapasse a largura da tela */
     flex-wrap: wrap;
+    /*alinhar elementos no eixo horizontal*/
+    justify-content: space-evenly;
+    border: 2px solid red;
+    height: 200px;
+    /*alinhar no eixo vertical*/
+    align-items: stretch;
 }
 .i{
     border: 1px solid black;
-    width: 50px;
-    height: 50%;
+   /* width: 50px;
+    height: 50%; */
+}
+
+
+#div1{flex-grow: 24;
+    flex-grow: 0.35;
+    transition: 3s;
+    
 }
