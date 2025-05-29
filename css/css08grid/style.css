@@ -1,13 +1,34 @@
+body{
+    height: 600px;
+    border: 1px solid black;
+}
 .container{
+
+    height: 600px;
+    
     border: 1px solid rebeccapurple;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(4,20%);
+    /* grid-template-columns: 25% 25% 25% 25%; */
     
-    grid-template-rows: 50px 50px ;
+    grid-template-rows: (2, 150px) ;
+    /* grid-template-rows: 50px 50px ; */
+    /* espaço entre colunas */
+    column-gap: 10px;
+    /* Espaço entre linhas */
+    row-gap: 15px;
+    justify-items: center;
+
+    align-items: end;
+    /* mover o container na horizontal */
+    justify-content: space-evenly;
+    /* mover o container na vertical */
+    align-content: space-evenly;
+    
 }
 .itens{
-    /* width: 35%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
     border: 1px solid red;
     font-size: 250%;
 }
