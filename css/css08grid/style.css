@@ -32,3 +32,11 @@ body{
     border: 1px solid red;
     font-size: 250%;
 }
+
+#items1{
+    /* referente as linhas verticais */
+    grid-column: 1 / 3;
+    /* referente as linhas horizontais */
+    grid-row: 1 /3;
+
+}
