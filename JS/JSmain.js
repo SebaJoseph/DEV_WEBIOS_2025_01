@@ -1,5 +1,5 @@
 var idade
-const ano  = 2010
+var ano  = 2010
 //JavaScript
 console.log("Helo world") //apresentar uma mensagem
 console.clear() //limpar
@@ -25,8 +25,45 @@ var nome2 = "Matheus Vinicius"
 var nome3 = "12365.4789" // texto
 console.log(nome, nome2, nome3)
 
-VAR // Flexivel e com menos regras (posso alterar o valor inicial de uma var e recriar a mesma em outras partes do codigo)
 
-LET // você não pode recriar a mesma em outras partes do codigo com o mesmo nome, mas pode chamar e alterar o valor inicial
+console.log("olá + papai") // concatenar
+console.log("Aluno" + nome + "e Aluno" + nome2 + 'tem um total de ' + nome3 + "dinheiro ") // concatenar
+//  VAR // Flexivel e com menos regras (posso alterar o valor inicial de uma var e recriar a mesma em outras partes do codigo)
 
-CONST // você não pode recriar a mesma em outras partes do cogido e não pode alterar o valor inicial dela garantindo a confiança do dado que está sendo utilizadado no decorrer do seu codigo
+
+// LET // você não pode recriar a mesma em outras partes do codigo com o mesmo nome, mas pode chamar e alterar o valor inicial
+
+ // CONST // você não pode recriar a mesma em outras partes do cogido e não pode alterar o valor inicial dela garantindo a confiança do dado que está sendo utilizadado no decorrer do seu codigo
+
+ //Template String
+console.log(`Aluno ${nome} e Aluno ${nome2}tem um total de ${nome3}dinheiros`) //
+// Concatenar 3
+
+
+// Operadores
+var valor1 = 5
+var valor2 = 5
+console.log(valor1 + valor2)
+console.log(valor1 - valor2)
+console.log(valor1 * valor2)
+console.log(valor1 / valor2)
+console.log(valor1 ** valor2)
+
+
+// Operadores relacionais
+console.log(5 == 5)
+console.log(5 > 5)
+console.log(22 < 8)
+console.log(22 >= 22)
+console.log(22 != 23);
+console.log('Ana' == 'ana')
+console.log(true == false)
+console.log(true === 'true') // boolean e a outro e txt > String
+console.log(true != 'false') // true
+
+let temcamisa = false
+let temCracha = true
+console.log(temcamisa)
+console.log(temCracha)
+console.log(!(temcamisa  == true && temCracha == true) // false == true = false)
+console.log(temCamise == true || temCracha == true)// false ou true = true
