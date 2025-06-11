@@ -14,16 +14,19 @@ var lorem = "Lorem Ipsum is simply dummy text of the printing and typesetting in
 
 
 console.log(texto2.length)
+
 // console.log(lorem. length >= 245)
 
 var texto2 = olá Tec de Tecnologia
 var texto3 = "olá meu nome e ia, seu amigo"
+
 
 //Formato1
 var resultado3 = texo.2 tolowercase
 console. log(resultado3)
 //formato 2
 console.log(texto3.toUppercase)
+
 
 
 var texto4 = 'Mozilla'
@@ -34,5 +37,11 @@ console.log(texto4.
     
     
     var texto5 = Ben vindp a Microsoft
-    let novaMengagem = texto5.replace('Microsoft')
+    let novaMengagem = texto5.replace('Microsoft' ,'Ios')
     console.log(novaMensagem)
+
+
+    //Retirar Espaços em branco
+    let textarea = ' olá mundo aprendendo javascript'
+
+    console.log(textarea.trim())
